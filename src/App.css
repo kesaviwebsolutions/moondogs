@@ -1,42 +1,103 @@
 .nav-link {
-  color: rgb(253, 246, 246) !important; 
+  color: rgb(253, 246, 246) !important;
 }
-.navbar{
+.navbar {
   position: absolute;
   padding-left: 80px;
   padding-right: 80px;
   justify-content: space-between !important;
 }
- 
-.navbar-brand img{
+
+.navbar-brand img {
   height: 50px;
-  ;
 }
 .bg {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-
-}
-.button2{
-display: flex;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
 
-.herosection{
-  display: flex;
-  justify-content: space-around;
-  /* padding-top: 150px; */
-  
-}
-.para{
+/* .para{
   width: 77%;
-}
+} */
 
-img.moon{
+/* img.moon{
   display: block;
   margin: auto;
   
+} */
+.herosection {
+  padding-top: 50px;
+}
+
+img.moon {
+  width: 60%;
+  margin-left: auto;
+  display: block;
+  margin-top: -22px;
+
+  animation: mover 3s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+.about-main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 30px;
+}
+
+.aboutimg{
+  width: 80%;
+}
+.about{
+  background: linear-gradient(42deg, #0C090A 0%, #0C090A 100%);
+}
+.about-para{
+  background: linear-gradient(90deg, rgba(147, 142, 141, 0.5) 0%, rgba(0, 5, 1, 0.5) 100%);
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  margin-top: 150px;
+}
+
+#tokonomics{
+  text-align: center;
+
+
+}
+#tokonomics.h1{
+  padding-bottom: 25px;
+}
+.icon-box{
+  background: linear-gradient(90deg, rgba(147, 142, 141, 0.5) 0%, rgba(0, 5, 1, 0.5) 100%);
+  padding: 70px 20px 80px 20px;
+  text-align: center;
+}
+.icon-box1{
+  background: linear-gradient(90deg, rgba(147, 142, 141, 0.5) 0%, rgba(0, 5, 1, 0.5) 100%);
+  padding: 70px 20px 80px 20px;
+  text-align: center;
+}
+.icon-box2{
+  background: linear-gradient(90deg, rgba(147, 142, 141, 0.5) 0%, rgba(0, 5, 1, 0.5) 100%);
+  padding: 70px 20px 80px 20px;
+  text-align: center;
 }
