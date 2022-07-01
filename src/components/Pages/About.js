@@ -1,5 +1,5 @@
 import React from "react";
-import img3 from "../Image/img3.png";
+import img3 from "../Image/img2.png";
 
 export default function About() {
   return (

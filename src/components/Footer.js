@@ -14,9 +14,10 @@ export default function Footer() {
       <div className="row ">
         <div className="col-lg-4 ">
           <div className="footer">
+            
+            <h5 >COMMUNITY</h5>
             <br />
-            <h5>COMMUNITY</h5>
-            <ul>
+            <ul style={{paddingLeft:"18px"}}>
               <a href="#">
                 {" "}
                 <li className="slink" > Telegram</li>
@@ -33,8 +34,9 @@ export default function Footer() {
         </div>
         <div className="col-lg-4">
           <div className="footer">
-            <h5>LISTING</h5>
-            <ul>
+            <h5 >LISTING</h5>
+            <br />
+            <ul style={{paddingLeft:"18px"}}>
               <a href="#">
                 <li className="clink">Bscscan</li>
               </a>
@@ -58,7 +60,7 @@ export default function Footer() {
         </div>
         <div className="col-lg-4">
           <div className="footer">
-            <h5>Support: support@moondogs.com</h5>
+            <h5 >Support: support@moondogs.com</h5>
             <br />
             <p className="footerpara" style={{ color:"white"}}>
               Our community is growing stronger by the day. Follow us on our

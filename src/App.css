@@ -9,9 +9,9 @@
   padding-right: 80px; */
   justify-content: space-between !important;
 }
-*section{
+/* *section{
   background-color: #0c090a;
-}
+} */
 .navbar-brand img {
   height: 50px;
   filter: invert(1);
@@ -83,6 +83,7 @@
   .aboutimg {
     width: 80%;
     padding-top: 90px;
+    margin-left: 50px;
   }
   .about {
     background: linear-gradient(42deg, #FFC107 0%, #4d473c 100%);
@@ -195,7 +196,13 @@
     padding-left: 5px;
     transition: 200ms ease-in-out;
   }
-
+  li.clink{
+    list-style: none;
+  }
+  li.slink{
+    list-style:none;
+  }
+  
 /* MEDIA QUERY */
 
 
