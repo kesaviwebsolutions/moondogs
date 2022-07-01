@@ -4,13 +4,14 @@ import img3 from "../Image/img3.png";
 export default function About() {
   return (
     <div>
-      <section id="about" className="about">
+      <section id="about" className="about" style={{backgroundColor:"#212529",paddingTop: "100px", paddingBottom: '100px'}}>
+        <div id="about">
         <div className="container-main">
-          <div className="about-main container">
+          <div className="about-main container" >
             <div className="row">
               <div className="col-md-6 ">
                 <div className="about-para">
-                  <h1 style={{ color: "#fff" }}>
+                  <h1 style={{ color: "#fff"}}>
                     PROJECT &amp; ECOSYSTEM
                   </h1>
                   <p style={{ color: "#fff" }}>
@@ -21,16 +22,17 @@ export default function About() {
                     inventore vero doloremque nemo.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque culpa ipsa debitis, praesentium doloribus aliquam incidunt tempore atque, maiores quas ducimus vel eius ipsum sunt dolor minus nobis doloremque!
                   </p>
-                  <button type="button" className="btn btn-danger">WHITEPAPER</button>
+                  <button type="button " className="btn btn-outline-warning">WHITEPAPER</button>
                 </div>
               </div>
               <div className="col-md-6 ">
-                <div className="about-img" style={{paddingTop: "100px", paddingBottom: '100px'}}>
+                <div className="about-img" style={{}}>
                   <img src={img3} alt="" className="aboutimg" />
                 </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
     </div>
